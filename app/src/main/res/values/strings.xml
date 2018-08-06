@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AirtablePretender</string>
+    <string name="tutorial_text">Drag right to open table selector</string>
+</resources>

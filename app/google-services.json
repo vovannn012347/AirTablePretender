@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "60657966278",
+    "firebase_url": "https://airtablesmocker.firebaseio.com",
+    "project_id": "airtablesmocker",
+    "storage_bucket": "airtablesmocker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60657966278:android:d155dd8e20393346",
+        "android_client_info": {
+          "package_name": "com.vovik.airtablepretender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60657966278-39ipvbb7nmokfrsg2qghe4ffdeonv0c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vovik.airtablepretender",
+            "certificate_hash": "2fd85fd09791a7e18c63c6bb5e558eefea384bc9"
+          }
+        },
+        {
+          "client_id": "60657966278-dcg15ao6tu5lsvmno60bpj7t5qlddn26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_bAFDxVBJDzgiHaBQmOqjnC7042Jp-Rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60657966278-dcg15ao6tu5lsvmno60bpj7t5qlddn26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
