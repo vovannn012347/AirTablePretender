@@ -16,7 +16,7 @@ import java.util.TimerTask;
 
 public class AirMockNumberCell extends AirMockCellData implements TextWatcher {
 
-    public Long number;
+    public String number;
     private Timer timer;
     boolean consume_update;
 
@@ -47,9 +47,9 @@ public class AirMockNumberCell extends AirMockCellData implements TextWatcher {
             consume_update = false;
             return;
         }
-        number = data.getValue(Long.class);
+        number = data.getValue(String.class);
         if (number!=null) {
-            ((EditText)cell_view).setText(number.toString());
+            ((EditText)cell_view).setText(number);
         }
     }
 
@@ -62,7 +62,7 @@ public class AirMockNumberCell extends AirMockCellData implements TextWatcher {
     @Override
     public void readData(String data){
 
-        number = Long.parseLong(data);
+        number = data;
         ((EditText)cell_view).setText(data);
     }
 
