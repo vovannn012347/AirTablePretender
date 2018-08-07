@@ -25,13 +25,12 @@ public class AirMockTextCell extends AirMockCellData implements TextWatcher {
     }
 
     @Override
-    public View createView(Context context){
+    public void createView(Context context){
         EditText cell_view = new EditText(context);
         cell_view.addTextChangedListener(this);
         if(text != null){
             cell_view.setText(text);
         }
-        return cell_view;
     }
 
     @Override
@@ -45,12 +44,12 @@ public class AirMockTextCell extends AirMockCellData implements TextWatcher {
         ((EditText)cell_view).setText(text);
     }
 
-    @Override
-    public void discardValue(){
-        if(cell_view != null){
-            ((EditText)cell_view).setText("");
-        }
-    }
+//    @Override
+//    public void discardValue(){
+//        if(cell_view != null){
+//            ((EditText)cell_view).setText("");
+//        }
+//    }
 
     @Override
     public void readData(String data){
