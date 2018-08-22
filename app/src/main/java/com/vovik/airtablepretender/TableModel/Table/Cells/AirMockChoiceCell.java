@@ -1,15 +1,13 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.vovik.airtablepretender.TableModel.Table.AirMockColumn;
-import com.vovik.airtablepretender.TableModel.Table.ColumnCells.AirMockColumnChoiceCell;
 
 public class AirMockChoiceCell extends AirMockCellData implements AdapterView.OnItemSelectedListener {
 

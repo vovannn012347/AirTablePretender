@@ -1,13 +1,11 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
-import android.provider.ContactsContract;
 import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Exclude;
-import com.vovik.airtablepretender.TableModel.Table.AirMockColumn;
 
 public abstract class AirMockCellData {
     @Exclude

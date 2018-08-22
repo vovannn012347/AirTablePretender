@@ -1,4 +1,4 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
 import android.text.Editable;

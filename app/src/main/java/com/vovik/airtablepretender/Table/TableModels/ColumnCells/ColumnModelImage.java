@@ -8,9 +8,9 @@ import com.vovik.airtablepretender.table.TableControllers.CellController;
 import com.vovik.airtablepretender.table.TableViews.CellView;
 import com.vovik.airtablepretender.table.TableViews.ColumnCells.DateCellView;
 
-public class ColumnChoiceCellModel {
+public class ColumnImageCellModel {
 
-    ColumnChoiceCellModel(){
+    ColumnImageCellModel(){
         super();
 
     }
@@ -29,3 +29,24 @@ public class ColumnChoiceCellModel {
     }
     public void eraseData(){}
 }
+/*
+StorageReference firestoreReference;
+    AirMockColumn column;
+
+    //todo: implement this class properly
+    public void ReadData(DataSnapshot columnData){
+        firestoreReference = FirebaseStorage.getInstance().getReference().child("data");
+    }
+
+    public void setParentCell(AirMockColumn column){
+        this.column = column;
+    }
+
+    public AirMockColumn getParentCell(){
+        return column;
+    }
+
+    public StorageReference getStorageReference(){
+        return firestoreReference;
+    }
+ */

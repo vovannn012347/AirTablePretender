@@ -1,12 +1,10 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.storage.images.FirebaseImageLoader;
@@ -15,11 +13,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.storage.UploadTask;
 import com.vovik.airtablepretender.R;
 import com.vovik.airtablepretender.TableModel.Table.AirMockColumn;
-import com.vovik.airtablepretender.TableModel.Table.ColumnCells.AirMockColumnImageCell;
 
 import java.io.ByteArrayOutputStream;
-
-import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 public class AirMockImageCell extends AirMockCellData implements View.OnClickListener {
 

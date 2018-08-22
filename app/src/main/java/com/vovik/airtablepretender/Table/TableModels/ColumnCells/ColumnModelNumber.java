@@ -8,9 +8,9 @@ import com.vovik.airtablepretender.table.TableControllers.CellController;
 import com.vovik.airtablepretender.table.TableViews.CellView;
 import com.vovik.airtablepretender.table.TableViews.ColumnCells.DateCellView;
 
-public class ColumnTextCellModel {
+public class ColumnNumberCellModel {
 
-    ColumnTextCellModel(){
+    ColumnNumberCellModel(){
         super();
 
     }

@@ -1,4 +1,4 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
 import android.text.Editable;
@@ -6,7 +6,6 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageButton;
 
 import com.google.firebase.database.DataSnapshot;
 import com.vovik.airtablepretender.TableModel.Table.AirMockColumn;

@@ -1,11 +1,11 @@
-package com.vovik.airtablepretender.TableModel.Table.Cells;
+package com.vovik.airtablepretender.table.TableModels.Cells;
 
 import android.content.Context;
 import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
 
-public class AirMockDataCell extends AirMockCellData {
+public class AirMockDateCell extends AirMockCellData {
     public View createView(Context context){
 
     }
@@ -19,6 +19,6 @@ public class AirMockDataCell extends AirMockCellData {
 
     }
     public String getData(){
-        
+        return "";
     }
 }
